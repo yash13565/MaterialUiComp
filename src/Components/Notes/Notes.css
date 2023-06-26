@@ -1,0 +1,68 @@
+.notescont{
+    position: fixed;
+    top: 72%;
+    left:13%;
+    height: 8rem;
+    width: 83.3vw;
+    background-color: white;
+    border:none;
+    padding-left: 2rem;
+    position: fixed;
+    box-shadow: 0px 0px 2px 2px rgb(240, 239, 239);
+    border-radius: 4px;
+}
+.comment{
+    height: 3rem;
+    border: 1px solid rgb(179, 178, 178);
+    border-radius: 4px;
+    width: 68vw;
+    outline: none;
+    
+}
+.cmtbtn{
+    height: 1.5rem;
+    color: #007FFF; 
+    border: none;
+    background: none;
+    font-weight: bolder;
+}
+.cmtcont{
+    display: flex;
+    gap: 1.2rem;
+    align-items: center;
+}
+.notescont p{
+    padding-left: 1.5rem;
+}
+
+@media screen and (max-width:980px) {
+    .comment{
+        width: 60vw;
+    }
+    .notescont{
+        top:74%;
+    }
+}
+@media screen and (max-width:640px) {
+    .comment{
+        width: 45vw;
+    }
+    .cmtbtn{
+        font-size: 0.8rem;
+    }
+    .cmtcont{
+        gap: 0.8rem;
+    }
+}
+@media screen and (max-width:400px) {
+    .comment{
+        width: 60vw;
+    }
+    .notescont{
+       height: 6rem;
+       top: 85%;
+    }
+    .comment{
+        height: 1.5rem;
+    }
+}

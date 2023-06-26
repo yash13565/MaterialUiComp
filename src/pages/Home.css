@@ -4,8 +4,7 @@
   .MainNavbar {
     margin-bottom: 14px;
   }
-  
-  .SideNavbar {
-    margin-top: 14px;
+  .sidebar{
+    width: 0;
   }
   

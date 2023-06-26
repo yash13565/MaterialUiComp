@@ -1,0 +1,69 @@
+.iconcont{
+    display: flex;
+    position: fixed;
+    top:7%;
+    left:12%;
+    gap: 3rem;
+    z-index: -1;
+}
+.midicon{
+    display: flex;
+    gap: 16px;
+    
+}
+.socialicons{
+    display: flex;
+    gap: 2rem;
+    color: gray;
+}
+
+@media screen and (max-width:999px){
+    .iconcont{
+        gap: 1.2rem;
+    }
+    .midicon{
+        gap: 8px;
+        
+    }
+    .socialicons{
+        gap: 1rem;
+    }
+    
+}
+@media screen and (max-width:753px){
+    .iconcont{
+        gap: 1rem;
+    }
+    .midicon{
+        gap: 4px;
+        
+    }
+    .socialicons{
+        gap: 0.5rem;
+    }
+   
+}
+@media screen and (max-width:648px){
+    .iconcont{
+        left: 15%;
+        gap: 0.5rem;
+    }
+    .socialicons{
+       display: none;
+    }
+   
+}
+@media screen and (max-width:450px){
+    .iconcont{
+        left: 20%;
+        gap: 0.5rem;
+    }
+    .midicon{
+       display: none;
+        
+    }
+    .socialicons{
+       display: none;
+    }
+   
+}

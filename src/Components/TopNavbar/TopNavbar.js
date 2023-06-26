@@ -2,7 +2,7 @@ import * as React from 'react';
 import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 import Box from '@mui/material/Box';
-
+import './TopNavbar.css'
 export default function TopNavbar() {
     const [value, setValue] = React.useState('one');
 
@@ -12,7 +12,7 @@ export default function TopNavbar() {
   
     return (
         <>
-      <Box sx={{ width: '100%'}}>
+      <Box className='navparent' sx={{ width: '85%',position:'fixed',top:'32%',left:'13%',backgroundColor:'white'}}>
         <Tabs
           value={value}
           onChange={handleChange}
@@ -20,13 +20,15 @@ export default function TopNavbar() {
           indicatorColor="primary"
           aria-label="secondary tabs example"
           variant='fullWidth'
+          
         >
-          <Tab value="one" label="Item One" />
-          <Tab value="two" label="Item Two" />
-          <Tab value="three" label="Item Three" />
-          <Tab value="four" label="Item four" />
-          <Tab value="five" label="Item five" />
-          <Tab value="six" label="Item six" />
+          <Tab value="one" label="Overview" />
+          <Tab value="two" label="Details" />
+          <Tab value="three" label="Timeline" />
+          <Tab value="four" label="Notes" />
+          <Tab value="five" label="Activities" />
+          <Tab value="six" label="Attachment" />
+          
         </Tabs>
       </Box>
       </>

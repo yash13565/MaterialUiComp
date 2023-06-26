@@ -1,0 +1,12 @@
+.navparent{
+    width: 85%;
+    position: fixed;
+    top: 32%;
+    left: 13%;
+    background-color: white;
+}
+@media screen and (max-width:570px) {
+    .navparent{
+        left: 19%;
+    }
+}

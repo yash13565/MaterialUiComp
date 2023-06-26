@@ -12,7 +12,7 @@ function MainNavbar() {
 
   return (
     <Box >
-      <AppBar sx={{backgroundColor:'#FFFFFF' }} component="nav">
+      <AppBar  sx={{backgroundColor:'#FFFFFF' }} component="nav">
         <Toolbar>
           <Typography
             variant="h6"
